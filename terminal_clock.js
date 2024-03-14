@@ -1,4 +1,5 @@
-for(let i=0;i<=1;i++){
+// Terminal clock in HH:MM:SS format
+for(let i=0;i<=500;i++){
     setTimeout(() => printTime(i),i*1000);
 }
 function printTime(i){
